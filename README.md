@@ -107,11 +107,12 @@
     - Save
 
 
-4)  #### Tools configuration:
+4)  #### Global Tools configuration:
     - Click on Manage Jenkins --> Tools
     - **Maven** --> Add Maven --> Make sure **Install automatically** is enabled --> Install from Apache --> Fill the below values
         * Name: **localMaven**
         * Version: Keep the default version as it is
+        * JDKSetup
         * Click on Add installer
 Select Extract *.zip/*.tar.gz
 Name: localJdk
