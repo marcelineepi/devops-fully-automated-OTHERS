@@ -111,7 +111,13 @@
     - Click on Manage Jenkins --> Tools
     - **Maven** --> Add Maven --> Make sure **Install automatically** is enabled --> Install from Apache --> Fill the below values
         * Name: **localMaven**
-        * Version: Keep the default version as it is 
+        * Version: Keep the default version as it is
+        * Click on Add installer
+Select Extract *.zip/*.tar.gz
+Name: localJdk
+Download URL for binary archive: https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz
+Subdirectory of extracted archive: jdk-11.0.1
+
 
 5)  #### Credentials setup(SonarQube, Nexus, Ansible, Slack):
     - Click on Manage Jenkins --> Credentials --> System --> Global credentials (unrestricted) --> Add Credentials
